@@ -8,7 +8,7 @@ private:
      bool isVenomous;
  public:
      Reptile();
-     Reptile(string name,int age,bool isHungry,bool isVenomous);
+     Reptile(string name,int age,bool isVenomous,bool isHungry);
      ~Reptile();
      bool getVenomous();
 };
